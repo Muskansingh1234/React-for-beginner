@@ -5,6 +5,10 @@ import Card from "./Card.jsx"
 import Button from "./button.jsx"
 import Student from "./student.jsx"
 import Usergreeting from "./Condition.jsx"
+import Condition1 from "./Condition1.jsx"
+import Condition2 from "./Condition2.jsx"
+import List from "./List.jsx"
+import List1 from "./List1.jsx"
 
 function App() {
 
@@ -28,12 +32,18 @@ function App() {
 <Student/>
 <Student></Student>
 <Student></Student>
-*/}
-
-
 <Usergreeting isLoggedIn={true} username = "Brocode" ></Usergreeting>
 <Usergreeting></Usergreeting>
 <Usergreeting isLoggedIn={true} username=""></Usergreeting>
+
+<Condition1></Condition1>
+<Condition2></Condition2>
+<List></List>
+
+*/}
+
+<List1></List1>
+  
 
 </>
 
